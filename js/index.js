@@ -152,7 +152,9 @@ function clearForm() {
 function searchProducts(term) {
     var cartoona = ``;
     for (var i = 0; i < productsList.length; i++) {
-        if (productsList[i].name.includes(term) == true) {
+        if (productsList[i].name.toLowerCase().includes(term) == true
+        || productsList[i].price.toLowerCase().includes(term) == true
+        || productsList[i].category.toLowerCase().includes(term) == true) {
             cartoona += `<tr>
                     <td>`+ i + `</td>
                     <td>` + productsList[i].name + `</td>
