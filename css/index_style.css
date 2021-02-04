@@ -1,0 +1,33 @@
+body
+{
+    overflow-x: hidden;
+    background-color: #222f47;
+    color: black;
+    font-size: 1.3rem;
+}
+h1
+{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+input
+{
+    background-color: transparent !important;
+    padding: 1.3rem !important;
+    color: black !important;
+}
+textarea
+{
+    background-color: transparent !important;
+    color: black !important;
+}
+#productNameAlert
+{
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+.table
+{
+    color: black;
+}
